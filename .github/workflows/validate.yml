@@ -1,0 +1,20 @@
+name: Validate Kdenlive Skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Skills Validator
+        run: |
+          chmod +x scripts/validate.sh
+          ./scripts/validate.sh

@@ -1,0 +1,32 @@
+{
+  "name": "kdenlive",
+  "displayName": "Kdenlive Video Suite",
+  "version": "1.2.0",
+  "description": "Professional video editing suite for Kdenlive: automated rough cuts, semantic retake pruning, dynamic transcript-driven zoom cuts, motion graphics, B-roll inserts, and transcript-driven sound design.",
+  "author": {
+    "name": "Abderrahmane Mhawar",
+    "url": "https://github.com/EmbeddedMhawar"
+  },
+  "repository": "https://github.com/EmbeddedMhawar/kdenlive-skills",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "antigravity-plugin",
+    "skills",
+    "kdenlive",
+    "video-editing",
+    "rough-cut",
+    "zoom-cuts",
+    "b-roll",
+    "motion-graphics",
+    "sound-design",
+    "whisper",
+    "mlt"
+  ],
+  "suggestedPrompts": [
+    "Rough cut this video for Kdenlive: /path/to/video.mp4",
+    "Prune repeated takes and stumbles from my raw footage",
+    "Apply zoom cuts and dynamic pacing to project_roughcut.kdenlive",
+    "Add transcript-driven sound effects and Minecraft SFX to my Kdenlive project"
+  ]
+}
